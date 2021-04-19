@@ -40,6 +40,9 @@ p {
 .essay {
   font-family: "Times New Roman"
 }
+.centered {
+  text-indent: 0px;
+}
 body {
   color:#05386B;
   background-color:#5CDB95;
@@ -49,7 +52,6 @@ body {
 
 ul {
   text-align: center;
-  font-family: 'Antonio', sans-serif;
   list-style:none;
 }
 .navigation {
@@ -62,6 +64,11 @@ ul {
   border-radius: 4px;
   padding: 3px;
   background-color: #05386B;
+}
+.default {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
 }
 
 hr {
