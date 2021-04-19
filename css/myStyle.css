@@ -65,7 +65,12 @@ ul {
   padding: 3px;
   background-color: #05386B;
 }
+.navigation li:hover {
+  border: 6.5px solid #05386B;
+  font-size: 105%
+}
 .default {
+  font-size: 108%;
   list-style-type: none;
   padding: 0;
   text-align: center;
