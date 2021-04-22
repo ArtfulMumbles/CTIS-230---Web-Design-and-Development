@@ -39,7 +39,13 @@ p {
 .centered {
   text-indent: 0px;
 }
+p#introduction {
+  margin-right: 15%;
+  font-size: 2em;
+  font-weight: 500;
+}
 body {
+  margin: 0;
   color:#05386B;
   background-color:#5CDB95;
   font-family: 'Antonio', sans-serif;
@@ -105,6 +111,14 @@ img#tft_set_5_cheatsheet{
   width: 50%;
 }
 
+img#guilord_college {
+  background-color: #a80135;
+  border-radius: 200px;
+  float: left;
+  margin-left: 4%;
+  margin-right: 5%;
+}
+
 nav {
   position: sticky;
   top: 0;
@@ -115,4 +129,40 @@ nav {
   border: 6.5px solid #379683;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+  display:flex;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 60px;
+}
+nav a {
+  font-size: 1.2em;
+  font-weight:500;
+  display: inline;
+  border: 6px solid #05386B;
+  border-radius: 4px;
+  padding: 3px;
+  padding-bottom: 10px;
+  background-color: #05386B;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border: 6.5px solid #05386B;
+  font-size: 1.3em;
+}
+
+div.flexible{
+  display:flex;
+  margin-left:25%;
+  margin-right:25%;
+}
+
+div.flexible div.content {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#spacer {
+  width:5%;
 }
