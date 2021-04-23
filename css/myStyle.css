@@ -56,23 +56,6 @@ ul {
   text-align: center;
   list-style:none;
 }
-.navigation {
-  color:#EDF5E1;
-  padding-left: 0;
-}
-.navigation li {
-  font-size: 1.2em;
-  font-weight:500;
-  display: inline;
-  border: 6px solid #05386B;
-  border-radius: 4px;
-  padding: 3px;
-  background-color: #05386B;
-}
-.navigation li:hover {
-  border: 6.5px solid #05386B;
-  font-size: 1.3em;
-}
 .default {
   font-size: 108%;
   list-style-type: none;
@@ -134,7 +117,7 @@ nav {
   box-sizing: border-box;
   height: 60px;
 }
-nav a {
+nav a{
   font-size: 1.2em;
   font-weight:500;
   display: inline;
@@ -151,16 +134,33 @@ nav a:hover {
   font-size: 1.3em;
 }
 
+footer p {
+  font-family: "Times New Roman", sans-serif;
+  text-align: center;
+  color: grey;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 div.flexible{
   display:flex;
-  margin-left:25%;
-  margin-right:25%;
+  justify-content: center;
+}
+
+div.flexible a {
+  font-size: 1.2em;
+  font-weight:500;
+  display: inline;
+  border: 6px solid #05386B;
+  border-radius: 4px;
+  padding: 3px;
+  background-color: #05386B;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 div.flexible div.content {
-  width: 15%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 25%;
 }
 
 div#spacer {
