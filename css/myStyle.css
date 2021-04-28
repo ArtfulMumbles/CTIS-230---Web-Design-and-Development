@@ -117,7 +117,7 @@ nav {
   box-sizing: border-box;
   height: 60px;
 }
-nav a{
+ nav a{
   font-size: 1.2em;
   font-weight:500;
   display: inline;
@@ -165,4 +165,13 @@ div.flexible div.content {
 
 div.spacer {
   width:5%;
+}
+
+button {
+  margin-right: 45%;
+  margin-left: 48.5%;
+}
+input {
+  margin-right: 45%;
+  margin-left: 46%;
 }
