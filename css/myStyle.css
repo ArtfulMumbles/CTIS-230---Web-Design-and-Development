@@ -177,6 +177,13 @@ input {
   margin-left: 46%;
 }
 
+#hands {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 10%;
+}
+
 @media only screen and (max-width:600px) {
   body {
     max-width:600px;
@@ -198,5 +205,9 @@ input {
   }
   nav a {
     overflow-x: hidden;
+  }
+
+  #hands {
+    width: 10%;
   }
 }

@@ -4,11 +4,14 @@ buttontest = document.getElementById("buttontest");
 buttontest2 = document.getElementById("buttontest2");
 myinput = document.getElementById("myinput");
 inputtest = document.getElementById("inputtest");
+hands = document.getElementById("hands");
+audio = document.getElementById('audio')
 
 myitem.addEventListener("click", onClick);
 myitem.addEventListener("mouseout", onMouseOut);
 thebutton.addEventListener("click", onButtonClick);
 myinput.addEventListener("change", onChange);
+hands.addEventListener("click", onImgClick)
 
 function onClick() {
   myitem.style.color = "green";
@@ -27,4 +30,10 @@ function onButtonClick() {
 function onChange() {
   newtext = myinput.value;
   inputtest.innerHTML = "そうですか。私も" + newtext + "が好きです。";
+}
+
+function onImgClick() {
+  hands.style.width = "100%";
+  hands.style.height = "200px";
+  audio.play();
 }
