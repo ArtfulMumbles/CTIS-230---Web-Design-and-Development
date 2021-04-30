@@ -94,7 +94,8 @@ img#tft_set_5_cheatsheet{
   width: 50%;
 }
 
-img#guilord_college {
+img#guilford_college {
+  width: 400px;
   background-color: #a80135;
   border-radius: 200px;
   float: left;
@@ -176,16 +177,26 @@ input {
   margin-left: 46%;
 }
 
-@media only screen and (max-width:480px) {
-  max-width:480px;
-  img {
+@media only screen and (max-width:600px) {
+  body {
+    max-width:600px;
+  }
+  img#guilford_college {
+    margin: 0;
     float: none;
+    width: 100%;
   }
   p {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    width:100%
+  }
+  p#introduction {
     margin-left: 0;
     margin-right: 0;
   }
-  p#introduction {
-    margin-right: 0;
+  nav a {
+    overflow-x: hidden;
   }
 }
