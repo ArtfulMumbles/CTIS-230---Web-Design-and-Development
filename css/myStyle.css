@@ -176,7 +176,7 @@ input {
   margin-left: 46%;
 }
 
-@media only-screen: 480px {
+@media only screen and (max-width:480px) {
   max-width:480px;
   img {
     float: none;
